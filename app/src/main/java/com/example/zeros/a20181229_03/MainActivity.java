@@ -37,6 +37,7 @@ public class MainActivity extends BaseActivity {
             if (resultCode == RESULT_OK) {
                 String userName = data.getStringExtra("이름");
                 nameTxt.setText(userName);
+//                text
             }
 
 
